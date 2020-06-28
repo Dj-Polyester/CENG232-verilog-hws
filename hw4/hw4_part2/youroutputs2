@@ -1,0 +1,47 @@
+-------------------	 Delete Everything
+If this is the last thing you see there is something wrong with your delete. CTRL+C then write finish
+ListOutput 12 listBusy 0 ready 1
+ListOutput 12 listBusy 0 ready 1
+---------	 Heap Insertion Worst Case
+ListOutput 1 listBusy 1 ready 0
+ListOutput 2 listBusy 1 ready 0
+ListOutput 5 listBusy 1 ready 0
+ListOutput 4 listBusy 1 ready 0
+ListOutput 3 listBusy 1 ready 0
+ListOutput 9 listBusy 1 ready 0
+ListOutput 6 listBusy 1 ready 0
+ListOutput 10 listBusy 1 ready 0
+ListOutput 7 listBusy 1 ready 0
+ListOutput 8 listBusy 1 ready 0
+ListOutput 8 listBusy 0 ready 1
+---------	 Listing Interrupt with deletion after 3rd student
+ListOutput 8 listBusy 1 ready 0
+ListOutput 1 listBusy 1 ready 0
+ListOutput 2 listBusy 1 ready 0
+---------	 Output after interrupt
+ListOutput 2 listBusy 1 ready 0
+ListOutput 3 listBusy 1 ready 0
+ListOutput 5 listBusy 1 ready 0
+ListOutput 4 listBusy 1 ready 0
+ListOutput 8 listBusy 1 ready 0
+ListOutput 9 listBusy 1 ready 0
+ListOutput 6 listBusy 1 ready 0
+ListOutput 10 listBusy 1 ready 0
+ListOutput 7 listBusy 1 ready 0
+ListOutput 7 listBusy 0 ready 1
+---------	 Listing Interrupt with insertion after 3rd student
+ListOutput 7 listBusy 1 ready 0
+ListOutput 2 listBusy 1 ready 0
+ListOutput 3 listBusy 1 ready 0
+---------	 Output after interrupt
+ListOutput 1 listBusy 1 ready 0
+ListOutput 2 listBusy 1 ready 0
+ListOutput 5 listBusy 1 ready 0
+ListOutput 4 listBusy 1 ready 0
+ListOutput 3 listBusy 1 ready 0
+ListOutput 9 listBusy 1 ready 0
+ListOutput 6 listBusy 1 ready 0
+ListOutput 10 listBusy 1 ready 0
+ListOutput 7 listBusy 1 ready 0
+ListOutput 8 listBusy 1 ready 0
+ListOutput 8 listBusy 0 ready 1

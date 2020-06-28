@@ -1,0 +1,38 @@
+Starting Testbench
+Check listBusy==0 when mode is checkIn
+time: 6,PASSED: listBusy==0.
+In list mode, check listBusy=1 and ready=0 while listing studentIDs
+time:108,PASSED: listBusy==1.
+time:108,PASSED: Ready==0.
+The heap contents that must be listed in the following order: 2,3,6,5,4,10,8,11,7,9
+time:108,FAILED: The  1. element in the heap should be  2 , but your listOutput is  x.
+time:118,FAILED: The  2. element in the heap should be  3 , but your listOutput is  2.
+time:128,FAILED: The  3. element in the heap should be  6 , but your listOutput is  3.
+time:138,FAILED: The  4. element in the heap should be  5 , but your listOutput is  6.
+time:148,FAILED: The  5. element in the heap should be  4 , but your listOutput is  5.
+time:158,FAILED: The  6. element in the heap should be 10 , but your listOutput is  4.
+time:168,FAILED: The  7. element in the heap should be  8 , but your listOutput is 10.
+time:178,FAILED: The  8. element in the heap should be 11 , but your listOutput is  8.
+time:188,FAILED: The  9. element in the heap should be  7 , but your listOutput is 11.
+time:198,FAILED: The 10. element in the heap should be  9 , but your listOutput is  7.
+Finished checking heap contents.
+After listing finishes, check ready=1 and listBusy=0
+time:208,FAILED: After listing finished, listBusy should be 0.
+time:208,FAILED: After listing finished, ready should be 1.
+Listing starts from the beginning: check ready=0, listBusy=1, listOutput=2
+time:218,FAILED: While listing studentIDs listBusy should be 1.
+time:218,FAILED: While listing studentIDs ready should be 0.
+time:218,FAILED: Listing should start from the beginning. The first element in the list should be   2.
+Check If pharmacy capacity is full then the student is not allowed to enter the pharmacy.
+time:236,FAILED: If pharmacy capacity is full then the student should not be added to the pharmacy. The first elemant in the heap should be  2 but you listed  9.
+inserting students 11,10,9,6,7,8,5,4,3,2
+delete 3 times
+Heap contents must be listed in the following order: 5,7,6,11,9,10,8
+time:378,FAILED: The  1. element in the heap should be  5, but your listOutput is  x.
+time:388,FAILED: The  2. element in the heap should be  7, but your listOutput is  5.
+time:398,FAILED: The  3. element in the heap should be  6, but your listOutput is  7.
+time:408,FAILED: The  4. element in the heap should be 11, but your listOutput is  6.
+time:418,FAILED: The  5. element in the heap should be  9, but your listOutput is 11.
+time:428,FAILED: The  6. element in the heap should be 10, but your listOutput is  9.
+time:438,FAILED: The  7. element in the heap should be  8, but your listOutput is 10.
+Result is:          6

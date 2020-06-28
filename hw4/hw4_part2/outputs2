@@ -1,0 +1,111 @@
+-------------------	 Insert 12 students
+Time 131 ListOutput x listBusy 1 ready 0
+Time 141 ListOutput 1 listBusy 1 ready 0
+Time 151 ListOutput 2 listBusy 1 ready 0
+Time 161 ListOutput 4 listBusy 1 ready 0
+Time 171 ListOutput 3 listBusy 1 ready 0
+Time 181 ListOutput 6 listBusy 1 ready 0
+Time 191 ListOutput 8 listBusy 1 ready 0
+Time 201 ListOutput 11 listBusy 1 ready 0
+Time 211 ListOutput 10 listBusy 1 ready 0
+Time 221 ListOutput 12 listBusy 1 ready 0
+Time 231 ListOutput 7 listBusy 1 ready 0
+Time 241 ListOutput 7 listBusy 0 ready 1
+-------------------	 Delete Once
+Time 261 ListOutput 7 listBusy 1 ready 0
+Time 271 ListOutput 2 listBusy 1 ready 0
+Time 281 ListOutput 3 listBusy 1 ready 0
+Time 291 ListOutput 4 listBusy 1 ready 0
+Time 301 ListOutput 7 listBusy 1 ready 0
+Time 311 ListOutput 6 listBusy 1 ready 0
+Time 321 ListOutput 8 listBusy 1 ready 0
+Time 331 ListOutput 11 listBusy 1 ready 0
+Time 341 ListOutput 10 listBusy 1 ready 0
+Time 351 ListOutput 12 listBusy 1 ready 0
+Time 361 ListOutput 12 listBusy 0 ready 1
+-------------------	 Delete Once
+Time 381 ListOutput 12 listBusy 1 ready 0
+Time 391 ListOutput 3 listBusy 1 ready 0
+Time 401 ListOutput 6 listBusy 1 ready 0
+Time 411 ListOutput 4 listBusy 1 ready 0
+Time 421 ListOutput 7 listBusy 1 ready 0
+Time 431 ListOutput 12 listBusy 1 ready 0
+Time 441 ListOutput 8 listBusy 1 ready 0
+Time 451 ListOutput 11 listBusy 1 ready 0
+Time 461 ListOutput 10 listBusy 1 ready 0
+Time 471 ListOutput 10 listBusy 0 ready 1
+-------------------	 Delete Everything
+If this is the last thing you see there is something wrong with your delete. CTRL+C then write finish
+Time 581 ListOutput 10 listBusy 0 ready 1
+Time 601 ListOutput 10 listBusy 0 ready 1
+-------------------	 Insert 6 students
+Time 671 ListOutput 10 listBusy 1 ready 0
+Time 681 ListOutput 1 listBusy 1 ready 0
+Time 691 ListOutput 11 listBusy 1 ready 0
+Time 701 ListOutput 5 listBusy 1 ready 0
+Time 711 ListOutput 24 listBusy 1 ready 0
+Time 721 ListOutput 17 listBusy 1 ready 0
+Time 731 ListOutput 12 listBusy 1 ready 0
+Time 741 ListOutput 12 listBusy 0 ready 1
+-------------------	 Delete 5 students
+Time 801 ListOutput 12 listBusy 1 ready 0
+Time 811 ListOutput 24 listBusy 1 ready 0
+Time 821 ListOutput 24 listBusy 0 ready 1
+-------------------	 Test for checkInTime 0
+Time 941 ListOutput 24 listBusy 1 ready 0
+Time 951 ListOutput 11 listBusy 1 ready 0
+Time 961 ListOutput 5 listBusy 1 ready 0
+Time 971 ListOutput 24 listBusy 1 ready 0
+Time 981 ListOutput 17 listBusy 1 ready 0
+Time 991 ListOutput 12 listBusy 1 ready 0
+Time 1001 ListOutput 12 listBusy 0 ready 1
+-------------------	 Delete Everything
+If this is the last thing you see there is something wrong with your delete. CTRL+C then write finish
+Time 1111 ListOutput 12 listBusy 0 ready 1
+Time 1131 ListOutput 12 listBusy 0 ready 1
+-------------------	 Heap Insertion Worst Case
+Time 1241 ListOutput 12 listBusy 1 ready 0
+Time 1251 ListOutput 1 listBusy 1 ready 0
+Time 1261 ListOutput 2 listBusy 1 ready 0
+Time 1271 ListOutput 5 listBusy 1 ready 0
+Time 1281 ListOutput 4 listBusy 1 ready 0
+Time 1291 ListOutput 3 listBusy 1 ready 0
+Time 1301 ListOutput 9 listBusy 1 ready 0
+Time 1311 ListOutput 6 listBusy 1 ready 0
+Time 1321 ListOutput 10 listBusy 1 ready 0
+Time 1331 ListOutput 7 listBusy 1 ready 0
+Time 1341 ListOutput 8 listBusy 1 ready 0
+Time 1351 ListOutput 8 listBusy 0 ready 1
+-------------------	 Listing Interrupt with deletion after 3rd student
+Time 1361 ListOutput 8 listBusy 1 ready 0
+Time 1371 ListOutput 1 listBusy 1 ready 0
+Time 1381 ListOutput 2 listBusy 1 ready 0
+-------------------	 Output after interrupt
+Time 1401 ListOutput 2 listBusy 1 ready 0
+Time 1411 ListOutput 2 listBusy 1 ready 0
+Time 1421 ListOutput 3 listBusy 1 ready 0
+Time 1431 ListOutput 5 listBusy 1 ready 0
+Time 1441 ListOutput 4 listBusy 1 ready 0
+Time 1451 ListOutput 8 listBusy 1 ready 0
+Time 1461 ListOutput 9 listBusy 1 ready 0
+Time 1471 ListOutput 6 listBusy 1 ready 0
+Time 1481 ListOutput 10 listBusy 1 ready 0
+Time 1491 ListOutput 7 listBusy 1 ready 0
+Time 1501 ListOutput 7 listBusy 0 ready 1
+-------------------	 Listing Interrupt with insertion after 3rd student
+Time 1511 ListOutput 7 listBusy 1 ready 0
+Time 1521 ListOutput 2 listBusy 1 ready 0
+Time 1531 ListOutput 3 listBusy 1 ready 0
+-------------------	 Output after interrupt
+Time 1551 ListOutput 3 listBusy 1 ready 0
+Time 1561 ListOutput 1 listBusy 1 ready 0
+Time 1571 ListOutput 2 listBusy 1 ready 0
+Time 1581 ListOutput 5 listBusy 1 ready 0
+Time 1591 ListOutput 4 listBusy 1 ready 0
+Time 1601 ListOutput 3 listBusy 1 ready 0
+Time 1611 ListOutput 9 listBusy 1 ready 0
+Time 1621 ListOutput 6 listBusy 1 ready 0
+Time 1631 ListOutput 10 listBusy 1 ready 0
+Time 1641 ListOutput 7 listBusy 1 ready 0
+Time 1651 ListOutput 8 listBusy 1 ready 0
+Time 1661 ListOutput 8 listBusy 0 ready 1
